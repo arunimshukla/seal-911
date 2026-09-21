@@ -33,7 +33,7 @@ SEAL 911 does not share personal data (including Personal Identifiable Informati
 
 ## Communication Channels
 
-Please note that the SEAL 911 Telegram bot operates on Telegram, which is not encrypted by default. We are happy to open other communication channels (e.g., Signal) to exchange sensitive information securely.
+Please note that conversations with the SEAL 911 Telegram bot are not end-to-end encrypted. We are happy to open other communication channels (e.g., Signal) to exchange sensitive information securely.
 
 You can find further details of how Telegram handles your data and their privacy policy [here](https://telegram.org/privacy).
 
