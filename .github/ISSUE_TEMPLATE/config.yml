@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SEAL 911 Emergency Response
+    url: https://t.me/seal_911_bot
+    about: Do not publish incident details on GitHub. Open a private SEAL 911 ticket.
+  - name: Security Alliance Security Report
+    url: https://securityalliance.org/.well-known/security.txt
+    about: Report a suspected compromise or security concern privately.
