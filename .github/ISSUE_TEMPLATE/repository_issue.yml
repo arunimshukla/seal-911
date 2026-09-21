@@ -1,0 +1,45 @@
+name: Repository or documentation issue
+description: Report a problem with this repository or its public documentation.
+title: "[Repository]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is public. For an active incident, contact the [SEAL 911 Telegram bot](https://t.me/seal_911_bot). To report a suspected compromise or security concern, follow the [Security Alliance security policy](https://securityalliance.org/.well-known/security.txt).
+
+        Do not include exploit details, private keys, victim information, investigative intelligence, or other sensitive information in this issue.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What kind of repository problem are you reporting?
+      options:
+        - Broken documentation
+        - Stale external link
+        - Repository configuration
+        - Other repository issue
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the public repository or documentation problem.
+      placeholder: Explain what is wrong and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link to the affected file, section, or public page when possible.
+      placeholder: https://github.com/security-alliance/seal-911/blob/main/README.md
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_information
+    attributes:
+      label: Public information acknowledgement
+      options:
+        - label: I confirm that this report contains no active incident details, private keys, victim information, investigative intelligence, or other sensitive information.
+          required: true
